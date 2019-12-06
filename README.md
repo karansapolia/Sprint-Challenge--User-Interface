@@ -34,13 +34,36 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+- Ans. Semantic HTML are HTML tags which give more meaning to an HTML document than using plain divs for everything. Semantic HTML markup conveys the underlying meaning of a webpage’s content. It makes the document more readable for search engines, screen readers and developers.
+For example, nesting a page within a number of ```<div></div>``` tags and breaking sections using it is less readable than using one ```<article></article>``` for the complete document and many ```<section></section>``` tags for various sections of the document.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+- Ans. ```display: block``` makes the element it is applied to have a line break before and after the element. It takes up the full width available to it. And allows setting the height and width properties on the element.
+
+```display: inline``` stays on the same line. It does not break into a new line. It only takes as much space as needed by the element content. You cannot set height and width properties on an inline element.
 
 3. What are the 4 areas of the box model?
 
+- Ans. The four areas of a box model, beginning from inside are:
+  - Content – This is where the text, images or any content of the tag are displayed.
+  - Padding – The transparent separation space between the content and the border.
+  - Border – This is the border of the element. It can be styled and increased/decreased as required.
+  - Margin – The transparent region outside the border which can be used for formatting and spacing.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+- Ans. The ```align-items: center;``` property works on the cross-axis on the element. 
+With ```flex-direction: row``` or ```flex-direction: row-reverse```, the cross-axis is the vertical axis.
+With ```flex-direction: column``` or ```flex-direction: column-reverse```, the cross-axis is the horizontal axis.
+
 5. Explain why git is valuable to a team of developers.
+
+- Ans. Git helps maintain and save multiple versions of files / folders without creating conflicting copies of them. It saves multiple versions of the files according to timestamps and calls it the git history. All the versions are saved in the .git directory that is created.
+It helps multiple people work on the same file simultaneously and keeps track of all the changes made to it and helps in merging the changes and undoing or redoing any changes as and when desired. This is also what any other version control system does.
+It provides us the option to work on different versions of the same file by using the concept of branches, and then merge whatever version we desire to.
+Git also maintains a log of the changes made with their timestamp and exact version number. We can travel to and use exact older versions of the file by using the hash of the git commit we view in a git log.
+All these features of git help make it a valuable system for a team of developers.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
