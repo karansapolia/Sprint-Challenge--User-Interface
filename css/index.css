@@ -21,7 +21,8 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+    vertical-align: baseline;
+    /* border: 1px solid black; */
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -47,6 +48,8 @@ table {
 	border-spacing: 0;
 }
 
+/* Styles for index page */
+
 * {
     box-sizing: border-box;
 }
@@ -69,6 +72,28 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+header {
+    display: flex;
+    flex-flow: column nowrap;
+    margin-bottom: 3%;
+}
+
+header nav {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 2% 0;
+    margin-bottom: 2%;
+}
+
+header nav div.nav-links {
+    flex-grow: 3;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
 }
 
 .top-content {
