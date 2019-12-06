@@ -214,6 +214,49 @@ footer nav a {
     text-decoration: none;
 }
 
+@media all and (max-width: 800px) {
+    .container {
+        width: 100%;
+    }
+
+    .top-content {
+        flex-flow: column nowrap;
+    }
+
+    .top-content .text-container {
+        margin: 5%;
+        width: 100%;
+    }
+
+    .middle-content .boxes {
+        flex-flow: row wrap;
+        align-items: center;
+    }
+
+    .middle-content .boxes .box {
+        width: 70%;
+    }
+
+    .bottom-content {
+        flex-flow: column nowrap;
+    }
+
+    .bottom-content .text-container {
+        margin: 5%;
+    }
+
+	footer nav {
+        width: 100%;
+        flex-flow: column nowrap;
+    }
+
+    footer nav a {
+        padding: 5%;
+        align-items: center;
+        text-align: center;
+    }
+}
+
 /* Styles specific to about page */
 
 .about-page .text-container {
