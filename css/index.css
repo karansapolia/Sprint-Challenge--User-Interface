@@ -213,3 +213,56 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* Styles specific to about page */
+
+.about-page .text-container {
+    width: 95%;
+}
+
+.about-page .middle-content {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.about-page .middle-content .linked-section {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    width: 45%;
+    margin: 2%;
+    border-bottom: 1px dotted black;
+}
+
+.about-page .middle-content .linked-section img {
+    width: 100%;
+    padding: 0 0 3% 0;
+    margin: 0;
+}
+
+.about-page .middle-content .linked-section h2 {
+    padding: 0 0 2% 0;
+}
+
+.about-page .middle-content .linked-section p {
+    padding-bottom: 3%;
+}
+
+.about-page .middle-content .linked-section button {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 3%;
+    width: 35%;
+    margin-bottom: 5%;
+}
+
+.about-page .middle-content {
+    border: none;
+}
+
+.about-page .bottom-content {
+    flex-flow: column nowrap;
+    margin-bottom: 5%;
+}
