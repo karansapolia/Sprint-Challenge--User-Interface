@@ -96,6 +96,11 @@ header nav div.nav-links {
     justify-content: space-around;
 }
 
+div.nav-links a {
+    text-decoration: none;
+    color: black;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
